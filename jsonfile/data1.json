@@ -1,0 +1,53 @@
+{
+    "performance response":
+    [
+        {
+        "ID": 1,
+        "Label": "1 Day",
+        "ChartPeriodCode": "1D",
+        "ChangePercent": 0.5
+        },
+        {
+        "ID": 7,
+        "Label": "1 Week",
+        "ChartPeriodCode": "1W",
+        "ChangePercent": 1.3923964234523240734420858600
+        },
+        {
+        "ID": 30,
+        "Label": "1 Month",
+        "ChartPeriodCode": "1M",
+        "ChangePercent": 3.8629610208005593427722426100
+        },
+        {
+        "ID": 180,
+        "Label": "6 Month",
+        "ChartPeriodCode": "6M",
+        "ChangePercent": 8.095324722575950518464617060
+        },
+        {
+        "ID": 365,
+        "Label": "1 Year",
+        "ChartPeriodCode": "1Y",
+        "ChangePercent": -6.5135305223410950283196979200
+        },
+        {
+        "ID": 730,
+        "Label": "2 Year",
+        "ChartPeriodCode": "2Y",
+        "ChangePercent": 30.979147379094476039324604330
+        },
+        {
+        "ID": 1825,
+        "Label": "5 Year",
+        "ChartPeriodCode": "5Y",
+        "ChangePercent": 68.081013804028060647205250060
+        },
+        {
+        "ID": 3650,
+        "Label": "10 Year",
+        "ChartPeriodCode": "10Y",
+        "ChangePercent": 399.02579951625907014243482935
+        }
+    ]
+}
