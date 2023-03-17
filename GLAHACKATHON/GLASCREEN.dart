@@ -12,24 +12,49 @@ class Gla extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        body: Column(
-          children: [
-            Container(
-              child: Center(child: Image.asset('assets/images/gla logo.png',height: 500,width: 500,)),
-            ),
-            Container(
-              child: Center(child: Text('GLA',style: TextStyle(color:Colors.green,fontSize: 50,fontWeight: FontWeight.bold),)),
-            ),
-            Container(
-              child:Center(child:Text('UNIVERSITY',style:TextStyle(fontSize: 40,color:Colors.green,fontWeight: FontWeight.bold),)),
-            ),
-            Container(
-              child: Center(child: Text('MATHURA',style:TextStyle(color:Colors.green,fontWeight: FontWeight.bold,fontSize: 35),)),
-            ),
-            Container(
-              child: Center(child: Text('Established vide U.P.Act 21 of 2010.',style: TextStyle(color:Colors.green,fontWeight: FontWeight.bold,fontSize: 15),)),
-            ),
-          ],
+        body: Padding(
+          padding: const EdgeInsets.all(15.0),
+          child: Column(
+            children: [
+              SizedBox(height: 120,),
+              Container(
+                child:Image.asset('assets/images/glalogo.png',height: 300,width:300,),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 75),
+                child: Container(
+                  child: Align(child: 
+                  Text('GLA',
+                  //textHeightBehavior: TextHeightBehavior(),
+                  textAlign: TextAlign.right,style: TextStyle(color:Color.fromARGB(255, 24, 111, 44),fontSize:78,fontWeight: FontWeight.w400,),),alignment: Alignment.centerLeft,),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left:71),
+                child: Container(
+                  child:Align(child:Text('UNIVERSITY',style:TextStyle(fontSize:42,color:Color.fromARGB(255,24,111,44),fontWeight: FontWeight.w400),),alignment: Alignment.centerLeft,),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left:71),
+                child: Container(
+                  child: Align(child: Text('MATHURA',style:TextStyle(color:Color.fromARGB(255,24,111,44),fontWeight: FontWeight.w400,fontSize:38),),alignment: Alignment.centerLeft,),
+                ),
+              ),
+              SizedBox(width: 15,),
+              Padding(
+                padding: const EdgeInsets.only(left: 71),
+                child: Container(
+                  child: Align(child: 
+                  Text('Established vide U.P. Act of 2010',
+                  style: 
+                  TextStyle(color:Color.fromARGB(255,24,111,44),
+                  fontWeight: FontWeight.w400,fontSize: 15),),alignment: Alignment.centerLeft,),
+                ),
+              ),
+              SizedBox(height: 120,),
+            ],
+          ),
         ));
   }
 }
